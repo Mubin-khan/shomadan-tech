@@ -5,6 +5,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  position: relative;
+  top: 130px;
+}
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -19,6 +23,13 @@ h6 {
 }
 
 /* nav section  */
+nav {
+  /* background-image: linear-gradient(rgba(165, 143, 143, 0.664), skyblue); */
+  background-color: white;
+}
+nav li:hover {
+  background-color: rgba(165, 143, 143, 0.664);
+}
 .nav-section {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -105,4 +116,35 @@ h6 {
 }
 .contact-info i {
   color: #998950;
+}
+
+/* media query  */
+@media only screen and (max-width: 375px) {
+  .heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 35px;
+  }
+  .map {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  div#first-one {
+    order: 2;
+  }
+  div#second-one {
+    order: 1;
+  }
+}
+@media only screen and (max-width: 991px) and (min-width: 376px) {
+  .map {
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  #first-one {
+    order: 2;
+  }
+  #second-one {
+    order: 1;
+  }
 }

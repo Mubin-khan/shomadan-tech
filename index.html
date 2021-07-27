@@ -10,83 +10,87 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>shomadan</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
     <!-- header section  -->
     <header>
-      <nav class="container">
-        <nav class="navbar navbar-expand-lg navbar-light nav-section">
-          <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center" href="#">
-              <img
-                src="images/logo/logo.png"
-                alt=""
-                width="70"
-                class="d-inline-block align-text-top me-2"
-              />
-              <span style="font-size: 22px">somadhan.tech</span>
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item me-3 rounded-2">
-                  <a class="nav-link active" aria-current="page" href="#homeid"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item dropdown me-3 rounded-2">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#aboutid"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    About Us
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item rounded-2" href="#weid"
-                        >What we are</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item rounded-2" href="#teamid"
-                        >Our Team</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item me-3 rounded-2">
-                  <a class="nav-link" href="#serviceid">Services</a>
-                </li>
-                <li class="nav-item me-3 rounded-2">
-                  <a class="nav-link" href="#partnid">Partners</a>
-                </li>
-                <li class="nav-item rounded-2">
-                  <a class="nav-link" href="#contactid">Contact Us</a>
-                </li>
-              </ul>
-            </div>
+      <nav
+        id="navbar-example"
+        class="
+          fixed-top
+          container
+          navbar navbar-expand-lg navbar-light
+          nav-section
+        "
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="images/logo/logo.png"
+              alt=""
+              width="70"
+              class="d-inline-block align-text-top me-lg-2 me-1"
+            />
+            <span style="font-size: 22px">somadhan.tech</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-3 rounded-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown me-3 rounded-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#aboutid"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About Us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item rounded-2" href="#weid"
+                      >What we are</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item rounded-2" href="#teamid"
+                      >Our Team</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item me-3 rounded-2">
+                <a class="nav-link" href="#serviceid">Services</a>
+              </li>
+              <li class="nav-item me-3 rounded-2">
+                <a class="nav-link" href="#partnid">Partners</a>
+              </li>
+              <li class="nav-item rounded-2">
+                <a class="nav-link" href="#contactid">Contact Us</a>
+              </li>
+            </ul>
           </div>
-        </nav>
+        </div>
       </nav>
       <section id="homeid" class="container-fluid home-container">
-        <div class="row d-flex align-items-center ms-md-5">
-          <div class="col-md-5">
+        <div class="row d-flex align-items-center ms-lg-5">
+          <div class="col-lg-5">
             <img class="img-fluid" src="images/logo/logo.png" alt="" />
           </div>
-          <div class="col-md-7 d-flex flex-column align-items-center">
+          <div class="col-lg-7 d-flex flex-column align-items-center">
             <h1 class="heading">SHOMADAN.TECH</h1>
             <hr class="horizontal-line" />
             <h4 class="subheading">Connect Happiness</h4>
@@ -100,7 +104,7 @@
       <section id="aboutid" class="aboutus container my-5">
         <h1 class="section-title">About Us</h1>
         <div id="weid" class="row d-flex align-items-center my-5 g-5">
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <h3 class="subheading text-secondary pb-2">We are here to solve</h3>
             <p class="blog-text">
               somadhan.tech has been appeared as a game changer organization to
@@ -113,12 +117,15 @@
               the fruits of technological revolutions to every people.
             </p>
           </div>
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <img class="img-fluid" src="images/team.jpg" alt="" />
           </div>
         </div>
         <div id="teamid" class="row d-flex align-items-center my-5 g-5">
-          <div class="col-md-6 order-2">
+          <div class="col-lg-6" id="first-one">
+            <img class="img-fluid" src="images/team.jpg" alt="" />
+          </div>
+          <div class="col-lg-6" id="second-one">
             <h3 class="subheading text-secondary pb-2">A Team</h3>
             <p class="blog-text">
               A group of IT enthusiastic people with rich technical background
@@ -250,9 +257,6 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 order-1">
-            <img class="img-fluid" src="images/team.jpg" alt="" />
-          </div>
         </div>
       </section>
       <section id="serviceid" class="services container py-5">
@@ -333,8 +337,8 @@
       </section>
       <section id="contactid" class="contactus container my-5">
         <h1 class="section-title">Contact Us</h1>
-        <div class="contact p-md-5 p-3 my-5">
-          <div class="container p-md-5 p-3">
+        <div class="contact p-lg-5 p-3 my-5">
+          <div class="container p-lg-5 p-3">
             <form action="">
               <div class="form-floating mb-3">
                 <input
@@ -367,25 +371,26 @@
                 <label for="floatingTextarea2">message</label>
               </div>
               <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button class="btn button-submit section-title" type="submit">
+                <button
+                  class="btn section-title bg-info text-light"
+                  type="submit"
+                >
                   Submit
                 </button>
               </div>
             </form>
           </div>
-          <div class="d-flex align-items-center justify-content-center">
-            <div class="ps-md-5">
+          <div class="d-flex align-items-center justify-content-center map">
+            <div class="ps-lg-5">
               <iframe
-                class="border border-4 rounded-3 shadow-lg"
+                class="border border-4 rounded-3 shadow-lg map-img"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7297.247093542118!2d90.396531!3d23.867498!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c4230e6c5687%3A0xbe6a72361efb0bb9!2sRabindra%20Sarani%2C%20Dhaka%201230!5e0!3m2!1sen!2sbd!4v1627403960884!5m2!1sen!2sbd"
-                width="400"
-                height="300"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
               ></iframe>
             </div>
-            <div class="ps-md-5 contact-info">
+            <div class="ps-lg-5 contact-info">
               <div class="d-flex pb-2">
                 <i class="fas fa-home pe-2"></i>
                 <h6>somadhan.tech Ltd</h6>
