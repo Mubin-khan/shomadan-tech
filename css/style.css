@@ -144,8 +144,8 @@ nav li:hover {
 @media only screen and (max-width: 375px) {
   .heading {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 35px;
+    font-size: 14px;
+    line-height: 28px;
   }
   .map {
     flex-direction: column;
