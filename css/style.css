@@ -14,8 +14,11 @@ h6 {
   font-weight: 400;
 }
 .button-d {
-  background-image: linear-gradient(rgba(165, 143, 143, 0.664), skyblue);
+  background-image: linear-gradient(rgb(23, 23, 161), skyblue);
   color: white;
+  letter-spacing: 0.02rem;
+  padding: 10px 20px;
+  text-transform: uppercase;
 }
 .button-submit {
   background-color: rgba(165, 143, 143, 0.664);
