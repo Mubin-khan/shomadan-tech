@@ -8,9 +8,9 @@
 body {
   position: relative;
   top: 130px;
+  font-family: "Poppins", sans-serif;
 }
 h6 {
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 .button-d {
@@ -27,14 +27,12 @@ h6 {
 
 /* nav section  */
 nav {
-  /* background-image: linear-gradient(rgba(165, 143, 143, 0.664), skyblue); */
   background-color: white;
 }
 nav li:hover {
   background-color: rgba(165, 143, 143, 0.664);
 }
 .nav-section {
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 22px;
 }
@@ -42,7 +40,6 @@ nav li:hover {
   background-image: linear-gradient(rgba(165, 143, 143, 0.664), skyblue);
 }
 .heading {
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 52px;
   line-height: 65px;
@@ -55,7 +52,6 @@ nav li:hover {
   color: #af8e17;
 }
 .subheading {
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
   color: azure;
@@ -63,14 +59,12 @@ nav li:hover {
 
 /* main section */
 .section-title {
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 /* about us section  */
 .blog-text,
 .position {
-  font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
 .set-width {
@@ -116,15 +110,12 @@ nav li:hover {
   overflow: hidden;
 }
 .review-title {
-  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 .review {
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
 .review-person {
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: italic;
 }
